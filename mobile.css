@@ -1,0 +1,35 @@
+
+@media (max-width: 375px) {
+
+    /*MINI MOBILE*/
+    #mercadona-img {
+        width: 20%;
+    }
+}
+
+@media (max-width: 1059px) {
+
+    /*MOBILE*/
+    .navbar-buttons {
+        display: none;
+    }
+
+    .hamburger-checkbox:checked~.navbar-links {
+        display: flex;
+    }
+
+    .obscure a,
+    .obscure svg {
+        display: none;
+    }
+
+    .desktop {
+        display: none !important;
+    }
+}
+
+@media (min-width: 895px) and (max-width: 1059px) {
+    .links .slider-bar {
+        justify-content: center;
+    }
+}
